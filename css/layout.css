@@ -1,0 +1,60 @@
+@charset: "utf-8";
+/*
+formatação do projeto cursos.
+*/
+body{
+	font-family: "Open Sans", sans-serif;
+}
+section#top{
+	background-color: #ef6c00;
+	height: 31em;
+}
+section#top nav{
+	background-color: rgba(13, 71, 161, 0.6);
+	height: 6.2em;
+	padding: 1em;
+}
+section#top nav ul a{
+	font-weight: 300; 
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+div#info{
+	color: #fff;
+	margin-top: 3em;
+}
+div#info h2{
+	font-weight: 700;
+}
+div#info p{
+	font-size: 23px;
+	font-weight: 300;
+}
+section#top nav ul li:nth-child(3){
+	border-left: 1px solid #fff;
+}
+section#formacoes p,section#comofunciona p{
+	font-size: 19px;
+	color: #757575;
+}
+h3,h4{
+	color: #4a535a;
+	border-left: 2px solid #ef6c00;
+	padding-left: 8px;
+	text-transform: uppercase;
+}
+h3{
+		font-size: 2.3em;
+		font-weight: 300;
+}
+h4{
+		font-size: 1.3em;
+		font-weight: 700;
+}
+/* class */
+.bg-top{
+	background: url('../imagens/bg-top.svg') no-repeat bottom right;
+}
+.logo{
+	width: 70%;
+}
